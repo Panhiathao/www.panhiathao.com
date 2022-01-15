@@ -1,0 +1,29 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: green;
+    box-sizing: border-box;
+    overflow-y: none;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background: red;
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    background: orange;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background: blue;
+}

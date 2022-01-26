@@ -4,35 +4,54 @@ html {
 body {
     margin: 0;
     width: 100vw;
-    height: 100vh;
-    background: green;
-    box-sizing: border-box;
-    overflow-y: none;
-    justify-content: center;
-    align-items: center;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    
 }
 
 header {
-    width: 100%;
-    height: 10%;
+    flex: 1;
     background: red;
 }
 
 main {
-    width: 100%;
-    height: 80%;
+    flex: 20;
     background: orange;
 }
 
 footer {
-    width: 100%;
-    height: 10%;
+    flex: 1;
     background: blue;
 }
 
-ul {
+header section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+header nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: right;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: center;
+    
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+}
+
+#landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

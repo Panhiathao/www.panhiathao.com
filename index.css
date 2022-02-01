@@ -1,13 +1,14 @@
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 body {
     margin: 0;
     width: 100vw;
     height: 300vh;
     display: flex;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 1em;
     
 }
 
@@ -30,7 +31,7 @@ header section {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: right;
 }
 
 header nav ul {
@@ -39,9 +40,15 @@ header nav ul {
     justify-content: space-between;
     list-style: none;
     text-decoration: none;
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-align: center;
     
+    
+}
+
+li {
+    text-decoration-style: none;
+    padding: 2em;
 }
 
 #logo {
@@ -55,3 +62,4 @@ header nav ul {
     justify-content: center;
     align-items: center;
 }
+

@@ -27,12 +27,8 @@ footer {
     background: blue;
 }
 
-header section {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: right;
-}
+
+
 
 header nav ul {
     display: flex;
